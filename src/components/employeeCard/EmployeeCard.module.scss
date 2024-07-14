@@ -1,0 +1,19 @@
+.container {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+
+  .avatar {
+    width: 120px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

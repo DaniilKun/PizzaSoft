@@ -1,0 +1,25 @@
+.container {
+  padding:  15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  .avatar {
+    width: 320px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 375px) {
+    .avatar {
+      width: 220px;
+    }
+  }
+}
