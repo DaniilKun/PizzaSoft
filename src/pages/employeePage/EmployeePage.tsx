@@ -39,6 +39,7 @@ const EmployeePage: React.FC = () => {
       dispatch(updateEmployee(updatedEmployee));
     }
   };
+console.log(selectedEmployee);
 
   if (!selectedEmployee) {
     return <div>Сотрудник не найден</div>;
@@ -81,7 +82,7 @@ const EmployeePage: React.FC = () => {
         <div>
           <label>Должность:</label>
           <select {...register('role')}>
-            <option value="Повар">Повар</option>
+            <option value="cook">Повар</option>
             <option value="waiter">Официант</option>
             <option value="driver">Водитель</option>
           </select>
